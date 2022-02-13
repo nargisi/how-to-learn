@@ -367,6 +367,7 @@ padding: 90px 0;
 
 .footer__column-menu {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
