@@ -12,7 +12,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого">
+      <a href="#" class="hover-link"><img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению
         вы можете использовать в своей жизни?<a href="#" class="header__link"> Узнать &rarr;</a></p>
@@ -236,7 +236,7 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Лого">
+          <a class="hover-link" href="#"><img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Лого"></a>
           <p class="footer__author">&copy;2022. Anastasija Dzehtsiarova</p>
         </div>
         <div class="footer__column footer__column_content_info">
@@ -263,8 +263,24 @@
           </nav>
         </div>
       </div>
+      <form class="form" method="post">
+        <h2 class="form__title">Форма для обратной связи</h2>
+        <div class="form__container">
+          <label class="form__subtitle" for="name">Имя</label>
+          <input class="form__input" type="text" name="name" id="name" placeholder="Имя">
+        </div>
+        <div class="form__container">
+          <label class="form__subtitle" for="comment">Комментарий</label>
+          <textarea class="form__textarea" type="text" name="comment" id="comment" placeholder="Введите коментарий"></textarea>
+        </div>
+        <div class="form__container-button">
+          <button class="form__button" type="submit">Отправить</button>
+        </div>
+      </form>
     </footer>
   </div>
 </body>
 
 </html>
+
+
